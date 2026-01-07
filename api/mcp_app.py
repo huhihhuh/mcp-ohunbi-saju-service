@@ -42,5 +42,3 @@ def get_daily_fortune(birth_date: str, birth_time: str = None, calendar_type: st
 
 if __name__ == "__main__":
     mcp.run()
-
-app = mcp.as_asgi_app()
