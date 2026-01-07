@@ -1,3 +1,5 @@
 mcp
 korean_lunar_calendar
 uvicorn
+starlette
+httpx
