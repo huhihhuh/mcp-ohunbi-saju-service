@@ -45,7 +45,7 @@ def get_daily_fortune(birth_date: str, birth_time: str = None, calendar_type: st
     except Exception as e:
         return f"운세를 분석하는 중 오류가 발생했습니다: {str(e)}"
 
-app = mcp.app
+app = mcp.sse_app()
 
 if __name__ == "__main__":
     mcp.run()
