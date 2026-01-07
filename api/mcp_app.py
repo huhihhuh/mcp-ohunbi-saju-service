@@ -1,3 +1,8 @@
+import sys
+import os
+# 현재 파일(mcp_app.py)이 있는 폴더를 경로에 추가 (형제 파일들을 찾기 위함)
+sys.path.append(os.path.dirname(__file__))
+
 from mcp.server.fastmcp import FastMCP
 from datetime import datetime, timedelta
 import converter
